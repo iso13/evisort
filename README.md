@@ -1,6 +1,6 @@
-##Cucumber/Protractor Framework
+## Cucumber/Protractor Framework
 
-##Features
+## Features
 There are two /features/**apiStrategy.feature** and /features/**codingChallenge.feature**. These files explain the coding challenge as well as can be executed.
 
 - All scripts written in with Typescript and Cucumber
@@ -67,12 +67,13 @@ If all the stars line up you should see the following:
 🚀 Cucumber HTML report /Users/dtran/Work/Evisort/evisort/reports/html/cucumber_reporter.html generated successfully 👍
 ```
 ##Project Structure
+
 Features Dir - Features and Scenarios
 
 StepDefinitions - Gluecode for the Scenarios
 
 Reports - HTML report of the current run
 
-Package.json -  
+Package.json - manages packages and scripts 
 
 
