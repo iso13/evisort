@@ -2,7 +2,7 @@
 Feature: Get Documents
   As an Engr
   I need to be able to access my api methods
-  So I can manage data
+  So I can manage the APIs
 
   I would either use the declarative or imperative way of developing
   the api automation scenarios that would make sense to the DEV/QA org.
@@ -11,8 +11,14 @@ Feature: Get Documents
 
   Added a @contract scenario if going down the micro-services.
 
+  @performance
+  Scenario: Performance Testing API
+    Given I have a performance baseline for APIs
+    When I exexcute the API Scenarios
+    Then they should not exceed the API performance baselinte.
+
   @schema
-  Scenario: JSON schea validator
+  Scenario: JSON schema validator
     Given I have a JSON Schema
     When I make an API request to "document"
     Then I need to run a JSON Schema validation
