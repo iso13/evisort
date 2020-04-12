@@ -1,10 +1,13 @@
 ##Cucumber/Protractor Framework
 
 ##Features
+There are two /features/**apiStrategy.feature** and /features/**codingChallenge.feature**. These files explain the coding challenge as well as can be executed.
+
 - All scripts written in with Typescript and Cucumber
 - Automatically generated HTML reports and screenshots on failure
 - Supports Angular and non-Angular
 - Latest Cucumber and Protractor Libraries
+
 
 
 ## Dependencies/Install/Execution (Mac)
